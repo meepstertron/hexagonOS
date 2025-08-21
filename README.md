@@ -1,2 +1,3 @@
 # hexagonOS
-Prototype!
+Prototype! not much here tho :P
+
