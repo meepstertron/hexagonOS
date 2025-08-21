@@ -1,0 +1,14 @@
+[Unit]
+Description=Web Sandwich Webview
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/hexagon/system/DE/webview.py
+Restart=always
+Environment=DISPLAY=:0
+# If using Wayland only, you may need:
+# Environment=XDG_SESSION_TYPE=wayland
+
+[Install]
+WantedBy=graphical.target
