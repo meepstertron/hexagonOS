@@ -1,1 +1,1 @@
-cp ./ /opt/hexagon
+cp -r ./ /opt/hexagon
